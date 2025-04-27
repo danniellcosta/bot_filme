@@ -7,7 +7,7 @@ class Interface:
     @staticmethod
     def obter_filmes():
         """Pede os filmes favoritos ao usuário"""
-        print("\n🎬 Digite seus filmes favoritos (1 por linha, 'fim' para terminar):")
+        print("\n🎬 Digite seus filmes favoritos (1 por linha, digite 'fim' para terminar):")
         filmes = []
         while True:
             entrada = input("> ").strip()
